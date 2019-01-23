@@ -1,17 +1,26 @@
 {
-  "name": "ajfns",
+  "name": "ajlearnjs",
   "version": "0.0.7",
   "description": "Bundle for Node Server with ExpressMidWares & ajFnsAsASvc Package ES6-importable",
   "main": "index.js",
-  "directories": {
-    "lib": "lib"
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "firebase-admin": "^6.5.0",
+    "fs": "0.0.1-security",
+    "js-sha256": "^0.9.0",
+    "jwt-simple": "^0.5.5",
+    "multer": "^1.4.1",
+    "nodemailer": "^5.1.1",
+    "path": "^0.12.7"
   },
+  "devDependencies": {},
   "scripts": {
-    "test": "node test.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "Fn-as-a-service"
-  ],
   "author": "Andrew J. Tan",
   "license": "ISC"
 }
