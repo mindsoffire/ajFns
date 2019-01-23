@@ -1,0 +1,17 @@
+{
+  "name": "ajfns",
+  "version": "0.0.7",
+  "description": "Bundle for Node Server with ExpressMidWares & ajFnsAsASvc Package ES6-importable",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "Fn-as-a-service"
+  ],
+  "author": "Andrew J. Tan",
+  "license": "ISC"
+}
